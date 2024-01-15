@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Laser
+  - Ground
+  - Bullet
+  - Projectile
+  - XP
+  - Ground
+  - Obsticle
+  - Topper
+  - Log
+  - pause_menu
+  - firework
+  - Log Obsticle
+  - shop_hp
+  - shop_extra
+  - shop_shield
+  - shop_shotgun
+  - shop_ak
+  - Timer
+  - Slime
+  - Mummy
+  - shop_coins
+  - player_filled_bar
+  - player_shield_bar
+  - filled_health_bar
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Wall
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,53 @@
+[488C:3E70][2024-01-08T16:20:36]i001: Burn v3.7.3813.0, Windows v10.0 (Build 19045: Service Pack 0), path: C:\Program Files (x86)\Razer Chroma SDK\temp\vc_redist.x86.exe, cmdline: '/install /quiet /norestart -burn.unelevated BurnPipe.{BE52C487-E884-4B2B-A96A-EA16B4611075} {DC188DF5-EA83-4FCF-A59E-FB4F1AAB31CD} 2448'
+[488C:3E70][2024-01-08T16:20:36]i000: Setting string variable 'WixBundleLog' to value 'C:\Users\Dalto\AppData\Local\Temp\dd_vcredist_x86_20240108162036.log'
+[488C:3E70][2024-01-08T16:20:36]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\Program Files (x86)\Razer Chroma SDK\temp\vc_redist.x86.exe'
+[488C:3E70][2024-01-08T16:20:36]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\Program Files (x86)\Razer Chroma SDK\temp\'
+[488C:3E70][2024-01-08T16:20:37]i000: Setting string variable 'WixBundleName' to value 'Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.23918'
+[488C:3E70][2024-01-08T16:20:37]i100: Detect begin, 10 packages
+[488C:3E70][2024-01-08T16:20:37]i000: Setting version variable 'windows_uCRT_DetectKey' to value '10.0.19041.3636'
+[488C:3E70][2024-01-08T16:20:37]i000: Setting numeric variable 'windows_uCRT_DetectKeyExists' to value 1
+[488C:3E70][2024-01-08T16:20:37]i102: Detected related bundle: {410c0ee1-00bb-41b6-9772-e12c2828b02f}, type: Upgrade, scope: PerMachine, version: 14.36.32532.0, operation: Downgrade
+[488C:3E70][2024-01-08T16:20:37]i108: Detected compatible package: vcRuntimeMinimum_x86, provider: Microsoft.VS.VC_RuntimeMinimumVSU_x86,v14, installed: {73F77E4E-5A17-46E5-A5FC-8A061047725F}, version: 14.36.32532, chained: {B5FC62F5-A367-37A5-9FD2-A6E137C0096F}
+[488C:3E70][2024-01-08T16:20:37]i103: Detected related package: {73F77E4E-5A17-46E5-A5FC-8A061047725F}, scope: PerMachine, version: 14.36.32532.0, language: 0 operation: Downgrade
+[488C:3E70][2024-01-08T16:20:37]i108: Detected compatible package: vcRuntimeAdditional_x86, provider: Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v14, installed: {C2C59CAB-8766-4ABD-A8EF-1151A36C41E5}, version: 14.36.32532, chained: {BD9CFD69-EB91-354E-9C98-D439E6091932}
+[488C:3E70][2024-01-08T16:20:37]i103: Detected related package: {C2C59CAB-8766-4ABD-A8EF-1151A36C41E5}, scope: PerMachine, version: 14.36.32532.0, language: 0 operation: Downgrade
+[488C:3E70][2024-01-08T16:20:37]i052: Condition '(VersionNT = v6.3 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[488C:3E70][2024-01-08T16:20:37]i052: Condition '(VersionNT = v6.3 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[488C:3E70][2024-01-08T16:20:37]i052: Condition '(VersionNT = v6.2 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[488C:3E70][2024-01-08T16:20:37]i052: Condition '(VersionNT = v6.2 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[488C:3E70][2024-01-08T16:20:37]i052: Condition '(VersionNT = v6.1 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[488C:3E70][2024-01-08T16:20:37]i052: Condition '(VersionNT = v6.1 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[488C:3E70][2024-01-08T16:20:37]i052: Condition '(VersionNT = v6.0 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[488C:3E70][2024-01-08T16:20:37]i052: Condition '(VersionNT = v6.0 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: vcRuntimeMinimum_x86, state: Obsolete, cached: None
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: vcRuntimeAdditional_x86, state: Obsolete, cached: None
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: Windows81_x86, state: Absent, cached: None
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: Windows81_x64, state: Absent, cached: None
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: Windows8_x86, state: Absent, cached: None
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: Windows8_x64, state: Absent, cached: None
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: Windows7_MSU_x86, state: Absent, cached: None
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: Windows7_MSU_x64, state: Absent, cached: None
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: WindowsVista_MSU_x86, state: Absent, cached: None
+[488C:3E70][2024-01-08T16:20:37]i101: Detected package: WindowsVista_MSU_x64, state: Absent, cached: None
+[488C:3E70][2024-01-08T16:20:37]i052: Condition 'VersionNT >= v6.0 OR (VersionNT = v5.1 AND ServicePackLevel >= 2) OR (VersionNT = v5.2 AND ServicePackLevel >= 1)' evaluates to true.
+[488C:3E70][2024-01-08T16:20:37]i199: Detect complete, result: 0x0
+[488C:1990][2024-01-08T16:20:37]e000: Error 0x80070666: Cannot install a product when a newer version is installed.
+[488C:3E70][2024-01-08T16:20:37]i500: Shutting down, exit code: 0x666
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: SystemFolder = C:\WINDOWS\system32\
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: VersionNT = 10.0.0.0
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: VersionNT64 = 10.0.0.0
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: windows_uCRT_DetectKey = 10.0.19041.3636
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: windows_uCRT_DetectKeyExists = 1
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleAction = 5
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleCompressed = 1
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleElevated = 1
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleInstalled = 0
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleLog = C:\Users\Dalto\AppData\Local\Temp\dd_vcredist_x86_20240108162036.log
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleManufacturer = Microsoft Corporation
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleName = Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.23918
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleOriginalSource = C:\Program Files (x86)\Razer Chroma SDK\temp\vc_redist.x86.exe
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleOriginalSourceFolder = C:\Program Files (x86)\Razer Chroma SDK\temp\
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleProviderKey = {2e085fd2-a3e4-4b39-8e10-6b8d35f55244}
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleTag = 
+[488C:3E70][2024-01-08T16:20:37]i410: Variable: WixBundleVersion = 14.0.23918.0
+[488C:3E70][2024-01-08T16:20:37]i007: Exit code: 0x666, restarting: No

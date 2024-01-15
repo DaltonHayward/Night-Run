@@ -1,0 +1,56 @@
+[05F0:0C1C][2024-01-08T16:18:56]i001: Burn v3.10.4.4718, Windows v10.0 (Build 19045: Service Pack 0), path: C:\WINDOWS\Temp\{532B6FE7-D026-4F59-9E4B-861FBF5994A1}\.cr\VC_redist.x86.exe
+[05F0:0C1C][2024-01-08T16:18:56]i009: Command Line: '-burn.clean.room=C:\Users\Dalto\AppData\Local\Temp\nsuF985.tmp\VC_redist.x86.exe -burn.filehandle.attached=540 -burn.filehandle.self=548 /q /norestart'
+[05F0:0C1C][2024-01-08T16:18:56]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\Users\Dalto\AppData\Local\Temp\nsuF985.tmp\VC_redist.x86.exe'
+[05F0:0C1C][2024-01-08T16:18:56]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\Users\Dalto\AppData\Local\Temp\nsuF985.tmp\'
+[05F0:0C1C][2024-01-08T16:18:56]i000: Setting string variable 'WixBundleLog' to value 'C:\Users\Dalto\AppData\Local\Temp\dd_vcredist_x86_20240108161856.log'
+[05F0:0C1C][2024-01-08T16:18:56]i000: Setting string variable 'WixBundleName' to value 'Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.28.29914'
+[05F0:0C1C][2024-01-08T16:18:56]i000: Setting string variable 'WixBundleManufacturer' to value 'Microsoft Corporation'
+[05F0:19A0][2024-01-08T16:18:56]i000: Setting version variable 'WixBundleFileVersion' to value '14.28.29914.0'
+[05F0:0C1C][2024-01-08T16:18:56]i100: Detect begin, 10 packages
+[05F0:0C1C][2024-01-08T16:18:56]i000: Setting version variable 'windows_uCRT_DetectKey' to value '10.0.19041.3636'
+[05F0:0C1C][2024-01-08T16:18:56]i000: Setting numeric variable 'windows_uCRT_DetectKeyExists' to value 1
+[05F0:0C1C][2024-01-08T16:18:56]i102: Detected related bundle: {410c0ee1-00bb-41b6-9772-e12c2828b02f}, type: Upgrade, scope: PerMachine, version: 14.36.32532.0, operation: Downgrade
+[05F0:0C1C][2024-01-08T16:18:56]i052: Condition '(VersionNT = v6.3 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[05F0:0C1C][2024-01-08T16:18:56]i052: Condition '(VersionNT = v6.3 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[05F0:0C1C][2024-01-08T16:18:56]i052: Condition '(VersionNT = v6.2 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[05F0:0C1C][2024-01-08T16:18:56]i052: Condition '(VersionNT = v6.2 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[05F0:0C1C][2024-01-08T16:18:56]i052: Condition '(VersionNT = v6.1 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[05F0:0C1C][2024-01-08T16:18:56]i052: Condition '(VersionNT = v6.1 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[05F0:0C1C][2024-01-08T16:18:56]i052: Condition '(VersionNT = v6.0 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[05F0:0C1C][2024-01-08T16:18:56]i052: Condition '(VersionNT = v6.0 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[05F0:0C1C][2024-01-08T16:18:56]i103: Detected related package: {73F77E4E-5A17-46E5-A5FC-8A061047725F}, scope: PerMachine, version: 14.36.32532.0, language: 0 operation: Downgrade
+[05F0:0C1C][2024-01-08T16:18:56]i103: Detected related package: {C2C59CAB-8766-4ABD-A8EF-1151A36C41E5}, scope: PerMachine, version: 14.36.32532.0, language: 0 operation: Downgrade
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: Windows81_x86, state: Absent, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: Windows81_x64, state: Absent, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: Windows8_x86, state: Absent, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: Windows8_x64, state: Absent, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: Windows7_MSU_x86, state: Absent, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: Windows7_MSU_x64, state: Absent, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: WindowsVista_MSU_x86, state: Absent, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: WindowsVista_MSU_x64, state: Absent, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: vcRuntimeMinimum_x86, state: Obsolete, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i101: Detected package: vcRuntimeAdditional_x86, state: Obsolete, cached: None
+[05F0:0C1C][2024-01-08T16:18:56]i052: Condition 'VersionNT >= v6.0 OR (VersionNT = v5.1 AND ServicePackLevel >= 2) OR (VersionNT = v5.2 AND ServicePackLevel >= 1)' evaluates to true.
+[05F0:0C1C][2024-01-08T16:18:56]i199: Detect complete, result: 0x0
+[05F0:19A0][2024-01-08T16:18:56]e000: Error 0x80070666: Cannot install a product when a newer version is installed.
+[05F0:0C1C][2024-01-08T16:18:56]i500: Shutting down, exit code: 0x666
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: SystemFolder = C:\WINDOWS\system32\
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: VersionNT = 10.0.0.0
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: VersionNT64 = 10.0.0.0
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: windows_uCRT_DetectKey = 10.0.19041.3636
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: windows_uCRT_DetectKeyExists = 1
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleAction = 5
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleElevated = 1
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleFileVersion = 14.28.29914.0
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleInstalled = 0
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleLog = C:\Users\Dalto\AppData\Local\Temp\dd_vcredist_x86_20240108161856.log
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleManufacturer = Microsoft Corporation
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleName = Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.28.29914
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleOriginalSource = C:\Users\Dalto\AppData\Local\Temp\nsuF985.tmp\VC_redist.x86.exe
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleOriginalSourceFolder = C:\Users\Dalto\AppData\Local\Temp\nsuF985.tmp\
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleProviderKey = VC,redist.x86,x86,14.28,bundle
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleSourceProcessFolder = C:\Users\Dalto\AppData\Local\Temp\nsuF985.tmp\
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleSourceProcessPath = C:\Users\Dalto\AppData\Local\Temp\nsuF985.tmp\VC_redist.x86.exe
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleTag = 
+[05F0:0C1C][2024-01-08T16:18:56]i410: Variable: WixBundleVersion = 14.28.29914.0
+[05F0:0C1C][2024-01-08T16:18:56]i007: Exit code: 0x666, restarting: No
