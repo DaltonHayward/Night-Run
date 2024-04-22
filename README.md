@@ -1,4 +1,4 @@
-# Night_Run
+# Night Run
 
 I mainly worked on the procedural level generation but helped with most of the other code.
 
